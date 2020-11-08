@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS `catalog_items`;
+DROP TABLE IF EXISTS `catalog_clothing`;
 CREATE TABLE `catalog_clothing` (
   `id` int(11) NOT NULL,
   `name` varchar(75) NOT NULL,
