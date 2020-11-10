@@ -24,14 +24,6 @@ CREATE TABLE `catalog_pages` (
   `includes` varchar(128) NOT NULL DEFAULT '' COMMENT 'Example usage: 1;2;3\r\n This will include page 1, 2 and 3 in the current page.\r\n Note that permissions are only used for the current entry.'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
-ALTER TABLE `catalog_pages`
-  ADD PRIMARY KEY (`id`) USING BTREE,
-  ADD KEY `id` (`id`) USING BTREE;
-
-ALTER TABLE `catalog_pages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
-COMMIT;
-
 INSERT INTO `catalog_pages` (`id`, `parent_id`, `caption_save`, `caption`, `page_layout`, `icon_color`, `icon_image`, `min_rank`, `order_num`, `visible`, `enabled`, `club_only`, `vip_only`, `page_headline`, `page_teaser`, `page_special`, `page_text1`, `page_text2`, `page_text_details`, `page_text_teaser`, `room_id`, `includes`) VALUES
 (1, -1, 'frontpage', 'Front Page', 'frontpage', 1, 1, 1, 1, '1', '1', '0', '0', '', '', '', NULL, NULL, NULL, NULL, 0, ''),
 (2, -1, 'furni', 'Furni', 'default_3x3', 1, 1, 1, 2, '1', '1', '0', '0', '', '', '', NULL, NULL, NULL, NULL, 0, ''),
@@ -84,4 +76,34 @@ INSERT INTO `catalog_pages` (`id`, `parent_id`, `caption_save`, `caption`, `page
 (49, 12, 'accessories', 'Accessories', 'default_3x3', 1, 11, 1, 10, '1', '1', '0', '0', 'catalog_extra_headline1', 'catalog_extra_teaser1', '', 'However you place your essential Furniture, it\'s the finishing touches that count!', NULL, '', NULL, 0, ''),
 (50, 18, 'admin_accessories', 'extras', 'default_3x3', 1, 11, 5, 10, '1', '1', '0', '0', 'catalog_extra_headline1', 'catalog_extra_teaser1', '', 'However you place your essential Furniture, it\'s the finishing touches that count!', NULL, '', NULL, 0, ''),
 (51, 12, 'badgedisplay', 'Badge Display', 'badge_display', 1, 224, 1, 11, '1', '1', '0', '0', 'catalog_header_badgedisplay', 'badgedisplay_promo2', '', 'You worked hard to get your badges, right? Now\'s the time to show it off, grab a display case and choose your favourite badge to show off!', NULL, 'Select an item', NULL, 0, ''),
-(52, 12, 'bed', 'Bed', 'default_3x3', 1, 114, 1, 12, '1', '1', '0', '0', 'catalog_beds_header_dyn', 'catalog_beds_teaser2_001', '', 'After a busy day making new friends and exploring the Hotel you\'ll need a good night\'s sleep! Pick your fave from our range of stylish beds and get some much needed rest.', NULL, '', NULL, 0, '');
+(52, 12, 'bed', 'Bed', 'default_3x3', 1, 114, 1, 12, '1', '1', '0', '0', 'catalog_beds_header_dyn', 'catalog_beds_teaser2_001', '', 'After a busy day making new friends and exploring the Hotel you\'ll need a good night\'s sleep! Pick your fave from our range of stylish beds and get some much needed rest.', NULL, '', NULL, 0, ''),
+(53, 12, 'rugs', 'Carpets', 'default_3x3', 1, 116, 1, 13, '1', '1', '0', '0', 'catalog_rugs_headline1', 'catalog_rugs_teaser1', '', 'Rugs for all occasions, all non-slip and washable.', NULL, '', NULL, 0, ''),
+(54, 12, 'chairs', 'Chair', 'default_3x3', 1, 111, 1, 14, '1', '1', '0', '0', 'catalog_chairs_header_dyn', 'catalog_chairs_teaser2_001', '', 'You can\'t leave your friends standing there when you invite them over! Have a look at our huge selection of chairs and take your pick.', NULL, '', NULL, 0, ''),
+(55, 12, 'dimmers', 'Dimmers', 'default_3x3', 1, 51, 1, 15, '1', '1', '0', '0', 'catalog_dimmers_header1_en', 'catalog_dimmer_teaser_en', '', 'Check out the Mood Lights. Use these items to dim the light in your rooms. Try out different light settings with different wallpapers to see what you get. Talk about lighting with style!', NULL, '', NULL, 0, ''),
+(56, 18, 'admin_country', 'country', 'default_3x3', 1, 21, 5, 4, '1', '1', '0', '0', 'country_header1_en_001', 'picnic_teaser_thumb', '', '\"Moving to the country, gonna eat a lot of peaches\"... The great outdoors is calling with the Country Furni range!', NULL, 'Click on an item for details.', '', 0, ''),
+(57, 18, 'admin_bathroom', 'baths', 'default_3x3', 1, 17, 5, 3, '1', '1', '0', '0', 'catalog_bath_headline1', 'catalog_bath_teaser1', '', 'Give yourself and your guests somewhere to freshen up - vital if you want to avoid nasty smells. Might be an ideia to put your loo in a corner though.', NULL, NULL, NULL, 0, ''),
+(58, 18, 'admin_cubie', 'cubie', 'default_3x3', 1, 100, 5, 5, '1', '1', '0', '0', 'catalog_cubie_header_en', 'catalog_cubie_teaser', '', 'It\'s sleek, it\'s modern, it\'s so darn cool it can barely stand itself... Introducing the Cubie Furni range! Give your Bachelor or Bachelorette pad a homely feel with a sophisticated twist.', NULL, '', NULL, 0, ''),
+(59, 18, 'admin_garden', 'garden', 'default_3x3', 1, 157, 4, 6, '1', '1', '0', '0', 'garden_catalog_header', 'garden_catalog_teaser', '', 'Make your own Garden.', NULL, '', NULL, 0, ''),
+(60, 18, 'admin_monsterplant', 'monsterplant', 'default_3x3', 1, 153, 4, 6, '1', '1', '0', '0', 'garden_catalog_header', 'garden_catalog_teaser', '', 'Make your own Garden.', NULL, '', NULL, 0, ''),
+(61, 18, 'admin_university', 'university', 'default_3x3', 1, 230, 4, 7, '1', '1', '0', '0', 'university_new_furni_catalog_header', 'university_catalog_teaser', '', 'From pink and flowery, to hipster chic - Every Habbo has a style.', NULL, '', NULL, 0, ''),
+(62, 18, 'admin_spa', 'valentine_2014', 'default_3x3', 1, 211, 4, 8, '1', '1', '0', '0', 'catalog_header_spa', 'catalog_teaser_spa', '', 'Inhale...Exhale...Inhale...Exhale. With all the features of a premium Spa, you can now create your very own Habbo Health Spa relaxing retreat!', NULL, '', NULL, 0, ''),
+(63, 18, 'admin_iced', 'iced', 'default_3x3', 1, 72, 4, 9, '1', '1', '0', '0', 'catalog_iced_headline1_nl', 'catalog_iced_teaser1', '', 'Cool and comfortable, this is the Furni for that rare Habbo that says \"I just need to relax for a bit\", perfect to sink into waste the afternoon away.', NULL, '', NULL, 0, ''),
+(64, 18, 'admin_iced_dark', 'iced_dark', 'default_3x3', 1, 72, 4, 9, '1', '1', '0', '0', 'catalog_iced_headline1_nl', 'catalog_iced_teaser1', '', 'Cool and comfortable, this is the Furni for that rare Habbo that says \"I just need to relax for a bit\", perfect to sink into waste the afternoon away.', NULL, '', NULL, 0, ''),
+(65, 18, 'admin_kitchen', 'kitchen', 'default_3x3', 1, 217, 4, 10, '1', '1', '0', '0', 'catalog_header_kitchen2015', 'teaser_kitchen2015', '', 'Fancy owning a Habbo restaurant? Or just love catering for Habbos in style? With this furni line you can REALLY get cooking!', NULL, '', NULL, 0, ''),
+(66, 18, 'admin_lodge', 'lodge', 'default_3x3', 1, 37, 4, 11, '1', '1', '0', '0', 'catalog_lodge_headline1_uk', 'catalog_lodge_teaser1', '', 'For that ski-lodge effect! The Lodge Collection is for Habbos who have a no-frills attitude to home furnishing and those who appreciate the beauty of wood.', NULL, 'Click on an item for details.', NULL, 0, ''),
+(67, 18, 'admin_mode', 'mode', 'default_3x3', 1, 39, 4, 12, '1', '1', '0', '0', 'catalog_mode_headline1', 'catalog_mode_teaser1', '', 'Steely functionality combined with sleek designer upholstery. The Habbo who chooses this furniture is a cool urban cat - streetwise, sassy and so slightly untouchable.', NULL, '', NULL, 0, ''),
+(68, 18, 'admin_neon', 'neon', 'default_3x3', 1, 41, 4, 13, '1', '1', '0', '0', 'catalog_neon_header1_en', 'catalog_neon_teaser1_en', '', 'Party animals rejoice! Feel the base and reach for the lasers with the Neon Furni range - everything you need to get the party started!', NULL, '', NULL, 0, ''),
+(69, 18, 'admin_summer', 'summer', 'default_3x3', 1, 57, 4, 14, '1', '1', '0', '0', 'catalog_shells_header', 'summer_teaser', '', 'Habbo\'s own Swimmingpool!', NULL, '', NULL, 0, ''),
+(70, 18, 'admin_pura', 'pura', 'default_3x3', 1, 48, 4, 15, '1', '1', '0', '0', 'catalog_pura_headline1_uk', 'catalog_pura_teaser1', '', 'This collection breathes fresh, clean air and cool tranquillity. Use it to create a haven away from the hullabaloo of the public spaces or your life outsite the hotel.', NULL, 'Click on an item for details.', NULL, 0, ''),
+(71, 18, 'admin_pura_dark', 'pura_dark', 'default_3x3', 1, 48, 4, 15, '1', '1', '0', '0', 'catalog_pura_headline1_uk', 'catalog_pura_teaser1', '', 'This collection breathes fresh, clean air and cool tranquillity. Use it to create a haven away from the hullabaloo of the public spaces or your life outsite the hotel.', NULL, 'Click on an item for details.', NULL, 0, ''),
+(72, 18, 'admin_usva', 'usva', 'default_3x3', 1, 129, 4, 16, '1', '1', '0', '0', 'catalog_usva_2', 'catalog_usva_picture', '', 'With a great range of colors and new stacking possibilities, you\'ll love building and creating structures with the new USVA Furni line!', NULL, 'Click on an item for details.', NULL, 0, ''),
+(73, 18, 'admin_ad_sales', 'ad_sales', 'default_3x3', 1, 44, 4, 1, '1', '1', '0', '0', 'furni_by_item_header', 'furni_by_item_teaser', '', 'System furnis.', NULL, 'Click on an item for details.', NULL, 0, ''),
+(74, 18, 'admin_legacy', 'legacy', 'default_3x3', 1, 42, 4, 1, '1', '1', '0', '0', 'furni_by_item_header', 'furni_by_item_teaser', '', 'System furnis.', NULL, 'Click on an item for details.', NULL, 0, '');
+
+ALTER TABLE `catalog_pages`
+  ADD PRIMARY KEY (`id`) USING BTREE,
+  ADD KEY `id` (`id`) USING BTREE;
+
+ALTER TABLE `catalog_pages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
+COMMIT;
