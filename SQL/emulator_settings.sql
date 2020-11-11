@@ -1,0 +1,2 @@
+UPDATE `emulator_settings` SET `value` = '8114597' WHERE `emulator_settings`.`key` = 'camera.item_id';
+UPDATE `emulator_settings` SET `value` = '94' WHERE `emulator_settings`.`key` = 'catalog.page.vipgifts';
