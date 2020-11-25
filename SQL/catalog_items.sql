@@ -263,9 +263,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (275, '275', 0, 'plasto', 'chair_plasto*14', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (276, '276', 0, 'plasto', 'table_plasto_4leg*14', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (277, '277', 0, 'old_hc_gifts', 'mocchamaster', 0, 0, 0, 1, 0, 0, 99, 245, 0, '', '1', '0'),
-(278, '278', 0, 'sport', 'carpet_legocourt', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(279, '279', 0, 'sport', 'bench_lego', 0, 0, 0, 1, 0, 0, 99, 18385, 0, '', '1', '0'),
-(280, '280', 0, 'sport', 'legotrophy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(278, '278', 273, 'sport', 'carpet_legocourt', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(279, '279', 273, 'sport', 'bench_lego', 0, 0, 0, 1, 0, 0, 1, 18385, 0, '', '1', '0'),
+(280, '280', 273, 'sport', 'legotrophy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (283, '283', 0, 'valentine', 'valentinescreen', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (284, '284', 0, 'old_hc_gifts', 'edicehc', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (285, '285', 87, 'rare', 'rare_daffodil_rug', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -310,8 +310,8 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (1500, '1500', 0, 'plasto', 'chair_plasty*11', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1501, '1501', 0, 'plasto', 'chair_plasto*16', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1502, '1502', 0, 'plasto', 'table_plasto_4leg*16', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1503, '1503', 0, 'sport', 'hockey_score', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1504, '1504', 0, 'sport', 'hockey_light', 0, 0, 0, 1, 0, 0, 99, 17946, 0, '', '1', '0'),
+(1503, '1503', 273, 'sport', 'hockey_score', 0, 0, 0, 1, 0, 0, 6, -1, 0, '', '1', '0'),
+(1504, '1504', 273, 'sport', 'hockey_light', 0, 0, 0, 1, 0, 0, 2, 17946, 0, '', '1', '0'),
 (1505, '1505', 120, 'teleports', 'doorD', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1506, '1506', 109, 'trophies', 'prizetrophy2*3', 0, 0, 0, 1, 0, 0, 99, 421, 0, '', '1', '0'),
 (1507, '1507', 109, 'trophies', 'prizetrophy3*3', 0, 0, 0, 1, 0, 0, 99, 422, 0, '', '1', '0'),
@@ -469,16 +469,16 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (1738, '1738', 87, 'rare', 'rare_snowrug', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1741, '1741', 0, 'asian', 'cn_lamp', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1742, '1742', 0, 'asian', 'cn_sofa', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1745, '1745', 0, 'sport', 'sporttrack1*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1747, '1747', 0, 'sport', 'sporttrack1*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1748, '1748', 0, 'sport', 'sporttrack1*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1750, '1750', 0, 'sport', 'sporttrack2*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1751, '1751', 0, 'sport', 'sporttrack2*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1752, '1752', 0, 'sport', 'sporttrack2*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1754, '1754', 0, 'sport', 'sporttrack3*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1755, '1755', 0, 'sport', 'sporttrack3*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1756, '1756', 0, 'sport', 'sporttrack3*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(1757, '1757', 0, 'sport', 'footylamp', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1745, '1745', 273, 'sport', 'sporttrack1*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1747, '1747', 273, 'sport', 'sporttrack1*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1748, '1748', 273, 'sport', 'sporttrack1*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1750, '1750', 273, 'sport', 'sporttrack2*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1751, '1751', 273, 'sport', 'sporttrack2*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1752, '1752', 273, 'sport', 'sporttrack2*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1754, '1754', 273, 'sport', 'sporttrack3*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1755, '1755', 273, 'sport', 'sporttrack3*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1756, '1756', 273, 'sport', 'sporttrack3*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(1757, '1757', 273, 'sport', 'footylamp', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1758, '1758', 0, 'xmas', 'tree1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1759, '1759', 0, 'area', 'barchair_silo', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (1760, '1760', 63, 'iced', 'divider_nor4*4', 0, 0, 0, 1, 0, 0, 99, 680, 0, '', '1', '0'),
@@ -3115,10 +3115,10 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (4694, '4694', 0, 'furnimatic', 'matic_dispenser', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4695, '4695', 0, 'furnimatic', 'matic_mech', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4696, '4696', 73, 'ad_sales', 'ads_mad3_edit', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4697, '4697', 0, 'background', 'roombg_color', 0, 0, 0, 1, 0, 0, 99, 17894, 0, '', '1', '0'),
-(4698, '4698', 0, 'background', 'roombg_mountains1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4699, '4699', 0, 'background', 'roombg_cloud_dark', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4700, '4700', 0, 'background', 'roombg_cloud', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(4697, '4697', 276, 'background', 'roombg_color', 0, 0, 0, 1, 0, 0, 99, 17894, 0, '', '1', '0'),
+(4698, '4698', 276, 'background', 'roombg_mountains1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(4699, '4699', 276, 'background', 'roombg_cloud_dark', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(4700, '4700', 276, 'background', 'roombg_cloud', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4701, '4701', 87, 'rare', 'cloud_egg', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4702, '4702', 87, 'rare', 'cloud_throne', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4703, '4703', 0, 'jetset', 'jetset_yacht_front', 0, 0, 0, 1, 0, 0, 99, 11632, 0, '', '1', '0'),
@@ -3143,7 +3143,7 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (4722, '4722', 0, 'jetset', 'jetset_vault_door', 0, 0, 0, 1, 0, 0, 99, 11655, 0, '', '1', '0'),
 (4723, '4723', 87, 'rare', 'diamond_dragon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4724, '4724', 87, 'rare', 'diamond_throne', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4725, '4725', 0, 'background', 'roombg_jetset', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(4725, '4725', 276, 'background', 'roombg_jetset', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4726, '4726', 0, 'jetset', 'jetset_vipscreencr', 0, 0, 0, 1, 0, 0, 99, 11661, 0, '', '1', '0'),
 (4727, '4727', 0, 'jetset', 'jetset_tub', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4728, '4728', 0, 'jetset', 'js_coins', 0, 0, 0, 1, 0, 0, 99, 11664, 0, '', '1', '0'),
@@ -3367,9 +3367,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (4946, '4946', 19, 'credit_furni', 'CF_240_sapphire', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4947, '4947', 40, 'wired', 'wf_act_kick_user', 10, 0, 0, 1, 0, 0, 12, 12303, 0, '', '1', '0'),
 (4948, '4948', 0, 'steampunk', 'steampunk_table_1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4949, '4949', 0, 'steampunk', 'steampunk_pillar_1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(4950, '4950', 0, 'steampunk', 'steampunk_rack', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(4949, '4949', 0, 'steampunk', 'steampunk_pillar_1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(4950, '4950', 0, 'steampunk', 'steampunk_rack', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4951, '4951', 0, 'steampunk', 'steampunk_pillar_2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (4952, '4952', 0, 'steampunk', 'steampunk_chand', 0, 0, 0, 1, 0, 0, 99, 12309, 0, '', '1', '0'),
 (4953, '4953', 0, 'steampunk', 'steampunk_floor1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -3875,7 +3875,7 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (5453, '5453', 87, 'rare', 'crystal_dragon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5454, '5454', 87, 'rare', 'crystal_throne', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5455, '5455', 87, 'rare', 'white_dino_egg', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(5456, '5456', 0, 'background', 'bg_cloud', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(5456, '5456', 276, 'background', 'bg_cloud', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5457, '5457', 123, 'spaces', 'hole4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5458, '5458', 123, 'spaces', 'hole1x1test', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5459, '5459', 120, 'teleports', 'teleport_random', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -3904,9 +3904,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (5482, '5482', 185, 'buildersclub', 'bc_block_1*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5483, '5483', 185, 'buildersclub', 'bc_block_1*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5484, '5484', 185, 'buildersclub', 'bc_block_1*4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(5485, '5485', 185, 'buildersclub', 'bc_block_1*5', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(5486, '5486', 185, 'buildersclub', 'bc_block_1*6', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(5485, '5485', 185, 'buildersclub', 'bc_block_1*5', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(5486, '5486', 185, 'buildersclub', 'bc_block_1*6', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5487, '5487', 185, 'buildersclub', 'bc_block_1*7', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5488, '5488', 185, 'buildersclub', 'bc_block_1*8', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5489, '5489', 185, 'buildersclub', 'bc_block_1*9', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -3955,9 +3955,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (5532, '5532', 19, 'credit_furni', 'CF_350_duck', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5533, '5533', 187, 'xmas2013', 'xmas13_terminal', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5534, '5534', 187, 'xmas2013', 'xmas13_icecream', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(5535, '5535', 0, 'background', 'roombg_stars', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(5536, '5536', 0, 'background', 'roombg_city1', 0, 0, 0, 1, 0, 0, 99, 22775, 0, '', '1', '0'),
-(5537, '5537', 0, 'background', 'roombg_city2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(5535, '5535', 276, 'background', 'roombg_stars', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(5536, '5536', 276, 'background', 'roombg_city1', 0, 0, 0, 1, 0, 0, 99, 22775, 0, '', '1', '0'),
+(5537, '5537', 276, 'background', 'roombg_city2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5538, '5538', 87, 'rare', 'rare_chinahorse', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5539, '5539', 185, 'buildersclub', 'bc_block_redbrick*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (5540, '5540', 185, 'buildersclub', 'bc_block_redbrick*10', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -4427,9 +4427,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (6004, '6004', 0, 'habbopalooza_2014', 'hblooza14_planepadr', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6005, '6005', 0, 'habbopalooza_2014', 'hblooza14_duck_balloon_p', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6006, '6006', 0, 'habbopalooza_2014', 'hblooza14_cafe_b', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(6007, '6007', 0, 'habbopalooza_2014', 'hblooza14_duck_balloon_b', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(6008, '6008', 0, 'habbopalooza_2014', 'hblooza14_flag_p', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(6007, '6007', 0, 'habbopalooza_2014', 'hblooza14_duck_balloon_b', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(6008, '6008', 0, 'habbopalooza_2014', 'hblooza14_flag_p', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6009, '6009', 0, 'habbopalooza_2014', 'hblooza14_flag_y', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6010, '6010', 0, 'habbopalooza_2014', 'hblooza14_arrowsign', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6011, '6011', 0, 'habbopalooza_2014', 'hblooza14_dance', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -4949,9 +4949,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (6525, '6525', 160, 'buildersclub', 'bc_standinghalfcylinder*43', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6526, '6526', 160, 'buildersclub', 'bc_standinghalfcylinder*44', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6527, '6527', 160, 'buildersclub', 'bc_standinghalfcylinder*45', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(6528, '6528', 160, 'buildersclub', 'bc_standinghalfcylinder*46', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(6529, '6529', 160, 'buildersclub', 'bc_standinghalfcylinder*47', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(6528, '6528', 160, 'buildersclub', 'bc_standinghalfcylinder*46', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(6529, '6529', 160, 'buildersclub', 'bc_standinghalfcylinder*47', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6530, '6530', 160, 'buildersclub', 'bc_standinghalfcylinder*48', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6531, '6531', 160, 'buildersclub', 'bc_standinghalfcylinder*49', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (6532, '6532', 160, 'buildersclub', 'bc_standinghalfcylinder*5', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -5458,9 +5458,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (7033, '7033', 161, 'buildersclub', 'bc_standingtriangularprism*16', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7034, '7034', 161, 'buildersclub', 'bc_standingtriangularprism*17', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7035, '7035', 161, 'buildersclub', 'bc_standingtriangularprism*18', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(7036, '7036', 161, 'buildersclub', 'bc_standingtriangularprism*19', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(7037, '7037', 161, 'buildersclub', 'bc_standingtriangularprism*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(7036, '7036', 161, 'buildersclub', 'bc_standingtriangularprism*19', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(7037, '7037', 161, 'buildersclub', 'bc_standingtriangularprism*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7038, '7038', 161, 'buildersclub', 'bc_standingtriangularprism*20', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7039, '7039', 161, 'buildersclub', 'bc_standingtriangularprism*21', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7040, '7040', 161, 'buildersclub', 'bc_standingtriangularprism*22', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -5954,9 +5954,9 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (7528, '7528', 186, 'buildersclub_alpha1', 'bc_alpha1_l*11', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7529, '7529', 186, 'buildersclub_alpha1', 'bc_alpha1_l*12', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7530, '7530', 186, 'buildersclub_alpha1', 'bc_alpha1_l*13', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(7531, '7531', 186, 'buildersclub_alpha1', 'bc_alpha1_l*14', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(7532, '7532', 186, 'buildersclub_alpha1', 'bc_alpha1_l*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(7531, '7531', 186, 'buildersclub_alpha1', 'bc_alpha1_l*14', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(7532, '7532', 186, 'buildersclub_alpha1', 'bc_alpha1_l*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7533, '7533', 186, 'buildersclub_alpha1', 'bc_alpha1_l*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7534, '7534', 186, 'buildersclub_alpha1', 'bc_alpha1_l*4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (7535, '7535', 186, 'buildersclub_alpha1', 'bc_alpha1_l*5', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -6467,10 +6467,10 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (8040, '8040', 0, 'army', 'army_c15_light', 0, 0, 0, 1, 0, 0, 99, 22133, 0, '', '1', '0'),
 (8041, '8041', 0, 'army', 'clothing_militaryjacket', 0, 0, 0, 1, 0, 0, 99, 16321, 0, '', '1', '0'),
 (8042, '8042', 0, 'army', 'clothing_camooutfit', 0, 0, 0, 1, 0, 0, 99, 16322, 0, '', '1', '0'),
-(8043, '8043', 0, 'army', 'clothing_napkin', 0, 0, 0, 1, 0, 0, 99, 16323, 0, '', '1', '0'),
-(8044, '8044', 0, 'army', 'clothing_kevlar', 0, 0, 0, 1, 0, 0, 99, 16324, 0, '', '1', '0'),
-(8045, '8045', 0, 'army', 'clothing_camoboots', 0, 0, 0, 1, 0, 0, 99, 16325, 0, '', '1', '0');
+(8043, '8043', 0, 'army', 'clothing_napkin', 0, 0, 0, 1, 0, 0, 99, 16323, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(8044, '8044', 0, 'army', 'clothing_kevlar', 0, 0, 0, 1, 0, 0, 99, 16324, 0, '', '1', '0'),
+(8045, '8045', 0, 'army', 'clothing_camoboots', 0, 0, 0, 1, 0, 0, 99, 16325, 0, '', '1', '0'),
 (8046, '8046', 0, 'army', 'army_c15_screen', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8047, '8047', 0, 'army', 'clothing_rank5', 0, 0, 0, 1, 0, 0, 99, 16327, 0, '', '1', '0'),
 (8048, '8048', 0, 'army', 'army15_scanner', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -7003,10 +7003,10 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (8575, '8575', 0, 'valentine_2016', 'val16_float4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8576, '8576', 0, 'valentine_2016', 'val_c16_vase', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8577, '8577', 0, 'easter_2016', 'easter16_habberge6ltd', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(8578, '8578', 0, 'easter_2016', 'clothing_pjtop3', 0, 0, 0, 1, 0, 0, 99, 17277, 0, '', '1', '0'),
-(8579, '8579', 0, 'easter_2016', 'clothing_sportpants', 0, 0, 0, 1, 0, 0, 99, 17278, 0, '', '1', '0'),
-(8580, '8580', 0, 'easter_2016', 'clothing_urbanoutfit', 0, 0, 0, 1, 0, 0, 99, 17279, 0, '', '1', '0');
+(8578, '8578', 0, 'easter_2016', 'clothing_pjtop3', 0, 0, 0, 1, 0, 0, 99, 17277, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(8579, '8579', 0, 'easter_2016', 'clothing_sportpants', 0, 0, 0, 1, 0, 0, 99, 17278, 0, '', '1', '0'),
+(8580, '8580', 0, 'easter_2016', 'clothing_urbanoutfit', 0, 0, 0, 1, 0, 0, 99, 17279, 0, '', '1', '0'),
 (8581, '8581', 0, 'easter_2016', 'clothing_tiedjumper', 0, 0, 0, 1, 0, 0, 99, 17280, 0, '', '1', '0'),
 (8582, '8582', 0, 'easter_2016', 'clothing_cumberband', 0, 0, 0, 1, 0, 0, 99, 17281, 0, '', '1', '0'),
 (8583, '8583', 0, 'easter_2016', 'clothing_casualoutfit1', 0, 0, 0, 1, 0, 0, 99, 17282, 0, '', '1', '0'),
@@ -7518,10 +7518,10 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (9089, '9089', 0, 'classics', 'classic3_plant*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9090, '9090', 0, 'classics', 'classic3_plant*4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9091, '9091', 0, 'classics', 'classic3_pillar1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(9092, '9092', 0, 'classics', 'classic3_div2*0', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(9093, '9093', 0, 'classics', 'classic3_div2*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(9094, '9094', 0, 'classics', 'classic3_div2*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(9092, '9092', 0, 'classics', 'classic3_div2*0', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(9093, '9093', 0, 'classics', 'classic3_div2*1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(9094, '9094', 0, 'classics', 'classic3_div2*2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9095, '9095', 0, 'classics', 'classic3_div2*3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9096, '9096', 0, 'classics', 'classic3_div2*4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9097, '9097', 0, 'classics', 'classic3_floor3*0', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -8041,10 +8041,10 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (9611, '9611', 0, 'bazaar', 'bazaar_c17_dyepink', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9612, '9612', 0, 'bazaar', 'bazaar_c17_rugpinkbluetrim', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9613, '9613', 0, 'bazaar', 'bazaar_c17_vasemystic', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(9614, '9614', 0, 'bazaar', 'bazaar_c17_vasepurpleyellowtrim', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(9615, '9615', 0, 'bazaar', 'clothing_pointyshoes', 0, 0, 0, 1, 0, 0, 99, 19591, 0, '', '1', '0'),
-(9616, '9616', 0, 'bazaar', 'bazaar_c17_scorpion', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+(9614, '9614', 0, 'bazaar', 'bazaar_c17_vasepurpleyellowtrim', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
 INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(9615, '9615', 0, 'bazaar', 'clothing_pointyshoes', 0, 0, 0, 1, 0, 0, 99, 19591, 0, '', '1', '0'),
+(9616, '9616', 0, 'bazaar', 'bazaar_c17_scorpion', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9617, '9617', 0, 'bazaar', 'bazaar_c17_bubblejuiceblower', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9618, '9618', 0, 'bazaar', 'bazaar_c17_rugyellow', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (9619, '9619', 0, 'bazaar', 'bazaar_c17_lamppink', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -8552,11 +8552,11 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (10121, '10121', 19, 'credit_furni', 'CF_750_goldenpig', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10122, '10122', 92, 'clothing', 'clothing_r18_tiedwavylocks', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10123, '10123', 92, 'clothing', 'clothing_r18_frohawk', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(10124, '10124', 0, 'birds', 'birds_r18_spoonbill', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(10124, '10124', 0, 'birds', 'birds_r18_spoonbill', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
 (10125, '10125', 0, 'birds', 'birds_r18_puffin', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10126, '10126', 0, 'birds', 'birds_r18_peacock', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(10127, '10127', 0, 'birds', 'birds_r18_crane', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
-INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(10127, '10127', 0, 'birds', 'birds_r18_crane', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10128, '10128', 0, 'birds', 'birds_r18_quetzal', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10129, '10129', 0, 'birds', 'birds_r18_cardinal', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10130, '10130', 109, 'trophies', 'trophy_ltd18_wcup', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -9060,11 +9060,11 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (10628, '10628', 0, 'festival', 'clothing_ruggedbackpack', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10629, '10629', 0, 'festival', 'clothing_bohopaint', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10630, '10630', 0, 'festival', 'clothing_bohobag', 0, 0, 0, 1, 0, 0, 99, 21211, 0, '', '1', '0'),
-(10631, '10631', 0, 'festival', 'fest_c19_backdrop3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(10631, '10631', 0, 'festival', 'fest_c19_backdrop3', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
 (10632, '10632', 0, 'festival', 'fest_c19_skull6', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10633, '10633', 0, 'festival', 'fest_c19_sitar', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(10634, '10634', 0, 'festival', 'fest_c19_craft', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
-INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(10634, '10634', 0, 'festival', 'fest_c19_craft', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10635, '10635', 0, 'festival', 'fest_c19_stool2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10636, '10636', 0, 'festival', 'fest_c19_bprint2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (10637, '10637', 0, 'festival', 'fest_c19_stage', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -9564,11 +9564,11 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11131, '11131', 0, 'easter_2020', 'easter_c20_heatherrock', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11132, '11132', 0, 'easter_2020', 'easter_c20_ancientstatue', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11133, '11133', 0, 'easter_2020', 'clothing_sportsshade', 0, 0, 0, 1, 0, 0, 99, 21953, 0, '', '1', '0'),
-(11134, '11134', 0, 'easter_2020', 'easter_c20_lightprize4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11134, '11134', 0, 'easter_2020', 'easter_c20_lightprize4', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
 (11135, '11135', 0, 'easter_2020', 'easter_c20_lightprize1', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11136, '11136', 0, 'easter_2020', 'easter_c20_waypointrocks', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11137, '11137', 0, 'easter_2020', 'easter_c20_energyfood', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
-INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(11137, '11137', 0, 'easter_2020', 'easter_c20_energyfood', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11138, '11138', 0, 'easter_2020', 'easter_c20_zenmaster', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11139, '11139', 0, 'easter_2020', 'clothing_nt_explorersash', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11140, '11140', 0, 'easter_2020', 'easter_c20_foresttree', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -9672,28 +9672,28 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11238, '11238', 0, 'rainyday', 'rainyday_c20_coathanger', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11239, '11239', 0, 'rainyday', 'rainyday_c20_homebakes', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11240, '11240', 0, 'rainyday', 'rainyday_c20_retrogames', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11241, '11241', 0, 'habbo20', 'clothing_nt_starearrings', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11242, '11242', 0, 'habbo20', 'clothing_starearrings', 0, 0, 0, 1, 0, 0, 99, 22162, 0, '', '1', '0'),
-(11243, '11243', 0, 'habbo20', 'clothing_glitzypurse', 0, 0, 0, 1, 0, 0, 99, 22163, 0, '', '1', '0'),
-(11244, '11244', 0, 'habbo20', 'clothing_nt_flapperdress', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11245, '11245', 0, 'habbo20', 'clothing_chiseledface', 0, 0, 0, 1, 0, 0, 99, 22165, 0, '', '1', '0'),
-(11246, '11246', 0, 'habbo20', 'clothing_nt_modernshortwave', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11247, '11247', 0, 'habbo20', 'habbo20_c20_artdecocarpet', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11248, '11248', 0, 'habbo20', 'clothing_nt_silkgloves', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11249, '11249', 0, 'habbo20', 'habbo20_c20_balloons', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11250, '11250', 0, 'habbo20', 'clothing_nt_slickedbackhair', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11251, '11251', 0, 'habbo20', 'clothing_r20_glitzytux', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11252, '11252', 0, 'habbo20', 'clothing_pencilmoustache', 0, 0, 0, 1, 0, 0, 99, 22172, 0, '', '1', '0'),
-(11253, '11253', 0, 'habbo20', 'clothing_nt_glitzypurse', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11254, '11254', 0, 'habbo20', 'clothing_modernshortwave', 0, 0, 0, 1, 0, 0, 99, 22174, 0, '', '1', '0'),
-(11255, '11255', 0, 'habbo20', 'clothing_slickedbackhair', 0, 0, 0, 1, 0, 0, 99, 22175, 0, '', '1', '0'),
-(11256, '11256', 0, 'habbo20', 'clothing_flapperdress', 0, 0, 0, 1, 0, 0, 99, 22176, 0, '', '1', '0'),
-(11257, '11257', 0, 'habbo20', 'clothing_nt_pencilmoustache', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11258, '11258', 0, 'habbo20', 'habbo20_c20_artdecochair', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11259, '11259', 0, 'habbo20', 'clothing_silkgloves', 0, 0, 0, 1, 0, 0, 99, 22179, 0, '', '1', '0'),
-(11260, '11260', 0, 'habbo20', 'habbo20_c20_artdecobackdrop', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11261, '11261', 0, 'habbo20', 'habbo20_c20_glitzytable', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11262, '11262', 0, 'habbo20', 'clothing_nt_chiseledface', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11241, '11241', 275, 'habbo20', 'clothing_nt_starearrings', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11242, '11242', 275, 'habbo20', 'clothing_starearrings', 0, 0, 0, 1, 0, 0, 99, 22162, 0, '', '1', '0'),
+(11243, '11243', 275, 'habbo20', 'clothing_glitzypurse', 0, 0, 0, 1, 0, 0, 99, 22163, 0, '', '1', '0'),
+(11244, '11244', 275, 'habbo20', 'clothing_nt_flapperdress', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11245, '11245', 275, 'habbo20', 'clothing_chiseledface', 0, 0, 0, 1, 0, 0, 99, 22165, 0, '', '1', '0'),
+(11246, '11246', 275, 'habbo20', 'clothing_nt_modernshortwave', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11247, '11247', 209, 'habbo20', 'habbo20_c20_artdecocarpet', 0, 0, 0, 1, 0, 0, 2, -1, 0, '', '1', '0'),
+(11248, '11248', 275, 'habbo20', 'clothing_nt_silkgloves', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11249, '11249', 209, 'habbo20', 'habbo20_c20_balloons', 0, 0, 0, 1, 0, 0, 1, -1, 0, '', '1', '0'),
+(11250, '11250', 275, 'habbo20', 'clothing_nt_slickedbackhair', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11251, '11251', 275, 'habbo20', 'clothing_r20_glitzytux', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11252, '11252', 275, 'habbo20', 'clothing_pencilmoustache', 0, 0, 0, 1, 0, 0, 99, 22172, 0, '', '1', '0'),
+(11253, '11253', 275, 'habbo20', 'clothing_nt_glitzypurse', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11254, '11254', 275, 'habbo20', 'clothing_modernshortwave', 0, 0, 0, 1, 0, 0, 99, 22174, 0, '', '1', '0'),
+(11255, '11255', 275, 'habbo20', 'clothing_slickedbackhair', 0, 0, 0, 1, 0, 0, 99, 22175, 0, '', '1', '0'),
+(11256, '11256', 275, 'habbo20', 'clothing_flapperdress', 0, 0, 0, 1, 0, 0, 99, 22176, 0, '', '1', '0'),
+(11257, '11257', 275, 'habbo20', 'clothing_nt_pencilmoustache', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11258, '11258', 209, 'habbo20', 'habbo20_c20_artdecochair', 0, 0, 0, 1, 0, 0, 5, -1, 0, '', '1', '0'),
+(11259, '11259', 275, 'habbo20', 'clothing_silkgloves', 0, 0, 0, 1, 0, 0, 99, 22179, 0, '', '1', '0'),
+(11260, '11260', 209, 'habbo20', 'habbo20_c20_artdecobackdrop', 0, 0, 0, 1, 0, 0, 3, -1, 0, '', '1', '0'),
+(11261, '11261', 209, 'habbo20', 'habbo20_c20_glitzytable', 0, 0, 0, 1, 0, 0, 4, -1, 0, '', '1', '0'),
+(11262, '11262', 275, 'habbo20', 'clothing_nt_chiseledface', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11263, '11263', 0, 'neonpunk', 'neonpunk_c20_wall', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11264, '11264', 0, 'neonpunk', 'neonpunk_c20_cupboard', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11265, '11265', 0, 'neonpunk', 'neonpunk_c20_strawberries', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -9739,11 +9739,11 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11305, '11305', 0, 'gothiccafe', 'gothiccafe_c20_rug', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11306, '11306', 0, 'gothiccafe', 'gothiccafe_c20_windoor', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11307, '11307', 0, 'gothiccafe', 'gothiccafe_c20_armchair', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11308, '11308', 0, 'habbo20', 'habbo20_r20_crackable', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11309, '11309', 0, 'habbo20', 'habbo20_c20_crackable', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11310, '11310', 0, 'habbo20', 'habbo20_c20_blackgoldballoon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11311, '11311', 0, 'habbo20', 'clothing_h20th', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11312, '11312', 0, 'habbo20', 'habbo20_c20_rosegoldballoon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11308, '11308', 275, 'habbo20', 'habbo20_r20_crackable', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11309, '11309', 275, 'habbo20', 'habbo20_c20_crackable', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11310, '11310', 275, 'habbo20', 'habbo20_c20_blackgoldballoon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11311, '11311', 275, 'habbo20', 'clothing_h20th', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11312, '11312', 275, 'habbo20', 'habbo20_c20_rosegoldballoon', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11313, '11313', 87, 'rare', 'rare_blackrosegold_parasol', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11314, '11314', 87, 'rare', 'rare_blackrosegold_icecream', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11315, '11315', 87, 'rare', 'rare_blackrosegold_fountain', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -9844,15 +9844,15 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11410, '11410', 0, 'garden20', 'zengarden_c20_bamboo', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11411, '11411', 0, 'garden20', 'zengarden_c20_divider', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11412, '11412', 0, 'garden20', 'zengarden_c20_glasspond', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11413, '11413', 0, 'habbo20', 'habbo20_c20_trophybronze', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11414, '11414', 0, 'habbo20', 'habbo20_c20_trophyblock', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11415, '11415', 0, 'habbo20', 'habbo20_c20_trophygold', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11416, '11416', 0, 'habbo20', 'habbo20_c20_trophylooks', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11417, '11417', 0, 'habbo20', 'habbo20_c20_trophydesign', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11418, '11418', 0, 'habbo20', 'habbo20_c20_trophysilver', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11419, '11419', 0, 'habbo20', 'habbo20_c20_trophyvideo', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11413, '11413', 275, 'habbo20', 'habbo20_c20_trophybronze', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11414, '11414', 275, 'habbo20', 'habbo20_c20_trophyblock', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11415, '11415', 275, 'habbo20', 'habbo20_c20_trophygold', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11416, '11416', 275, 'habbo20', 'habbo20_c20_trophylooks', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11417, '11417', 275, 'habbo20', 'habbo20_c20_trophydesign', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11418, '11418', 275, 'habbo20', 'habbo20_c20_trophysilver', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11419, '11419', 275, 'habbo20', 'habbo20_c20_trophyvideo', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11420, '11420', 19, 'credit_furni', 'CF_1500_suitcase2', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11421, '11421', 0, 'habbo20', 'clothing_r20_slumberoutfit', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11421, '11421', 275, 'habbo20', 'clothing_r20_slumberoutfit', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11422, '11422', 87, 'rare', 'dtl_r20_gold', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11423, '11423', 117, 'nt_newbie_room', 'party_nt_barcorn', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11424, '11424', 117, 'nt_newbie_room', 'country_nt_rbw', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -10060,12 +10060,12 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11626, '11626', 116, 'xmas2020', 'xmas_c20_frostedweeds', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11627, '11627', 116, 'xmas2020', 'xmas_c20_woodentrain', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11628, '11628', 116, 'xmas2020', 'clothing_r20_dragonflywings', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11629, '11629', 116, 'xmas2020', 'xmas_c20_woodenplane', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(11629, '11629', 116, 'xmas2020', 'xmas_c20_woodenplane', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
 (11630, '11630', 116, 'xmas2020', 'clothing_kilttop', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11631, '11631', 116, 'xmas2020', 'xmas_c20_woodendog', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11632, '11632', 116, 'xmas2020', 'xmas_c20_treestump', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(11633, '11633', 116, 'xmas2020', 'xmas_c20_flowerguy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
-INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(11633, '11633', 116, 'xmas2020', 'xmas_c20_flowerguy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11634, '11634', 116, 'xmas2020', 'xmas_c20_earthguy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11635, '11635', 116, 'xmas2020', 'xmas_c20_shrine', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11636, '11636', 116, 'xmas2020', 'xmas_c20_rockguy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -10107,6 +10107,7 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (11672, '11672', 0, 'misc', 'mysterious_trophy', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11673, '11673', 0, 'household', 'house_sofa', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (11674, '11674', 19, 'credit_furni', 'CF_350_sparklybag', 350, 0, 0, 1, 0, 0, 1, 22772, 0, '', '1', '0'),
+(11676, '11676', 87, 'rare', 'rare_prize20_xmas', 2, 0, 0, 1, 0, 0, 0, -1, 0, '', '1', '0'),
 (20632, '2063', 7, 'credit_furni', 'CF_10_coin_gold', 55, 0, 0, 5, 0, 0, 15, 1197, 0, '', '1', '0'),
 (20642, '2064', 7, 'credit_furni', 'CF_1_coin_bronze', 1, 1, 5, 1, 0, 0, 2, 18629, 0, '', '0', '0'),
 (20643, '2064', 7, 'credit_furni', 'CF_1_coin_bronze', 6, 0, 0, 5, 0, 0, 9, 18629, 0, '', '0', '0'),
@@ -10143,7 +10144,7 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (8112010, '8112010', 0, '', 'Poker', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8113001, '8113001', 123, 'spaces', 'wallpaper', 0, 0, 0, 1, 0, 0, 99, 9714, 0, '', '1', '0'),
 (8113002, '8113002', 123, 'spaces', 'floor', 0, 0, 0, 1, 0, 0, 99, 9874, 0, '', '1', '0'),
-(8114001, '8114001', 0, 'posters', 'poster', 0, 0, 0, 1, 0, 0, 99, 18498, 0, '', '1', '0'),
+(8114001, '8114001', 274, 'posters', 'poster', 0, 0, 0, 1, 0, 0, 99, 18498, 0, '', '1', '0'),
 (8114002, '8114002', 0, 'gothic', 'gothicfountain', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114003, '8114003', 0, 'old_hc_gifts', 'hc_wall_lamp', 0, 0, 0, 1, 0, 0, 99, 1237, 0, '', '1', '0'),
 (8114004, '8114004', 87, 'rare', 'industrialfan', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
@@ -10575,13 +10576,13 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (8114528, '8114528', 81, 'testing', 'test_habbopage_display', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114529, '8114529', 143, 'habbowood', 'cine_pstr_10', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114530, '8114530', 97, 'habbo_club_gifts', 'hc_exe_wfall', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(8114531, '8114531', 93, 'stories', 'post_it_xmas', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(8114531, '8114531', 93, 'stories', 'post_it_xmas', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
+INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
 (8114532, '8114532', 187, 'xmas2013', 'year2014', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114533, '8114533', 93, 'stories', 'post_it_dreams', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114534, '8114534', 0, 'asian', 'china_pstr5', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114535, '8114535', 93, 'stories', 'storieshero_poster', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(8114536, '8114536', 93, 'stories', 'external_image_wallitem', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0');
-INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`, `limited_stack`, `limited_sells`, `order_number`, `offer_id`, `song_id`, `extradata`, `have_offer`, `club_only`) VALUES
+(8114536, '8114536', 93, 'stories', 'external_image_wallitem', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114537, '8114537', 62, 'valentine_2014', 'val14_wall1', 0, 0, 0, 1, 0, 0, 99, 18084, 0, '', '1', '0'),
 (8114538, '8114538', 62, 'valentine_2014', 'val14_wall3', 0, 0, 0, 1, 0, 0, 99, 18085, 0, '', '1', '0'),
 (8114539, '8114539', 62, 'valentine_2014', 'val14_wall2', 0, 0, 0, 1, 0, 0, 99, 18083, 0, '', '1', '0'),
@@ -10755,8 +10756,11 @@ INSERT INTO `catalog_items` (`id`, `item_ids`, `page_id`, `furniline`, `catalog_
 (8114707, '8114707', 117, 'nt_newbie_room', 'cubie_nt_decal_1_p', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114708, '8114708', 0, 'habboween_2020', 'hween_c20_floorwallb', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
 (8114709, '8114709', 116, 'xmas2020', 'xmas_c20_forestbg', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(8114710, '8114710', 0, 'posters', 'poster_duck', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
-(8114711, '8114711', 0, 'misc', 'pixelduck_wall', 0, 0, 0, 1, 0, 0, 99, 22780, 0, '', '1', '0');
+(8114710, '8114710', 274, 'posters', 'poster_duck', 0, 0, 0, 1, 0, 0, 99, -1, 0, '', '1', '0'),
+(8114711, '8114711', 0, 'misc', 'pixelduck_wall', 0, 0, 0, 1, 0, 0, 99, 22780, 0, '', '1', '0'),
+(8114712, '8114001', 273, 'posters', 'poster 52', 0, 0, 0, 1, 0, 0, 3, 18498, 0, '52', '1', '0'),
+(8114713, '8114001', 273, 'posters', 'poster 53', 0, 0, 0, 1, 0, 0, 4, 18498, 0, '53', '1', '0'),
+(8114714, '8114001', 273, 'posters', 'poster 54', 0, 0, 0, 1, 0, 0, 5, 18498, 0, '54', '1', '0');
 
 ALTER TABLE `catalog_items`
   ADD PRIMARY KEY (`id`) USING BTREE,
@@ -10766,5 +10770,5 @@ ALTER TABLE `catalog_items`
   ADD KEY `id` (`id`) USING BTREE;
 
 ALTER TABLE `catalog_items`
-  MODIFY `id` int(16) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8114712;
+  MODIFY `id` int(16) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8114715;
 COMMIT;
